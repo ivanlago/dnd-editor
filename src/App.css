@@ -1,0 +1,16 @@
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.layout > :first-child {
+  flex: 1 1 100%;
+}
+
+.layout > :nth-child(2) {
+  flex: 1 0 0;
+}
+
+.layout > :last-child {
+  flex: 0 0 300px;
+}
